@@ -11,5 +11,5 @@ function increaseRankBy(n){
 
   for (let i = 0; i < rankedLists.length; i++) {
   rankedLists[i].innerHTML = (i + n).toString();
-}
+  }
 }
