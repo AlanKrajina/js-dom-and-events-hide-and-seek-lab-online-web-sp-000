@@ -13,3 +13,8 @@ function increaseRankBy(n){
   rankedLists[i].innerHTML = i + n;
   }
 }
+
+function deepestChild(){
+  var nodes = document.querySelectorAll('#grand-node div');
+  return var mostDeep = nodes[nodes.length- 1];
+}
