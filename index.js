@@ -10,6 +10,6 @@ function increaseRankBy(n){
   let rankedLists = document.querySelectorAll( 'ul.ranked-list li' )
 
   for (let i = 0; i < rankedLists.length; i++) {
-  rankedLists[i].innerHTML = (i + n).toString();
+  rankedLists[i].innerHTML = (i + n).parseInt();
   }
 }
